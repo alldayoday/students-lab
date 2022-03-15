@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: rgb(56, 31, 56);
 }
 
 .App-logo {
@@ -37,21 +38,26 @@
   }
 }
 
+h1{
+  color: pink;
+}
+
 .card {
   width: 45%;
   margin: 20px;
-  border: 5px solid darkslateblue;
-  background-color: #cecece;
+  border: 5px solid pink;
+  background-color: #e7e5e5;
   padding: 5px;
+  border-radius: 20px;
 }
 
 .card-title {
-  border-bottom: 5px solid darkslateblue;
+  border-bottom: 5px solid pink;
   padding: 10px;
 }
 
 .row {
-  margin-left: 10%;
+  margin-left: 3%;
 }
 
 .list-group-item{
