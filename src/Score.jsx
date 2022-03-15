@@ -1,10 +1,9 @@
 const Score = (props) => {
   return (  
     <>
-    <div>
+    <div className="list-group-item">
       Score: {props.score.score}
-    </div>
-    <div>
+      <div></div>
       Date: {props.score.date}
     </div>
     </>
