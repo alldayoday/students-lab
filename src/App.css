@@ -38,16 +38,22 @@
 }
 
 .card {
-  width: 40%;
+  width: 45%;
   margin: 20px;
   border: 5px solid darkslateblue;
+  background-color: #cecece;
+  padding: 5px;
 }
 
 .card-title {
   border-bottom: 5px solid darkslateblue;
+  padding: 10px;
 }
 
 .row {
   margin-left: 10%;
-  margin-top: 5%;
+}
+
+.list-group-item{
+  margin-bottom: 5px;
 }
