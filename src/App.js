@@ -67,7 +67,7 @@ function App() {
   
   return (
     <div className="App">
-      <StudentList className="card" students={students}/>
+      <StudentList students={students}/>
     </div>
   );
 }
